@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smaharjan-cpu.git"
+  },
+  "license": "MIT",
+  "author": "Sumun Maharjan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "sass-build": "sass --no-source-map scss:css",
+    "sass-watch": "sass --watch scss:css --no-source-map"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.94.2"
+  }
+}
